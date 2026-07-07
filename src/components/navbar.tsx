@@ -57,7 +57,7 @@ export function Navbar() {
             className="text-lg font-bold tracking-tight text-zinc-100 transition-colors hover:text-white"
             aria-label="Go to homepage"
           >
-            arkha<span className="text-zinc-500">.</span>dev
+            arkha<span className="text-zinc-500">.</span>bw
           </button>
 
           <div className="hidden items-center gap-1 md:flex">
