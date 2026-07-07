@@ -10,12 +10,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Arkha | Software Developer — Backend & Mobile Engineering",
+  title: "Arkha | Software Developer — Web & Mobile Engineering",
   description:
-    "Software developer specializing in backend architecture, API design, and mobile development with Kotlin & Jetpack Compose. Building scalable systems with clean, maintainable code.",
+    "Software developer specializing in Web architecture, API design, and mobile development with Kotlin & Jetpack Compose. Building scalable systems with clean, maintainable code.",
   keywords: [
     "software developer",
-    "backend engineer",
+    "Web Engineer",
     "mobile developer",
     "Node.js",
     "Kotlin",
@@ -26,16 +26,16 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Arkha | Software Developer",
     description:
-      "Software developer specializing in backend architecture and mobile development.",
+      "Software developer specializing in Web architecture and mobile development.",
     type: "website",
     locale: "en_US",
-    siteName: "arkha.dev",
+    siteName: "arkha.bw",
   },
   twitter: {
     card: "summary_large_image",
     title: "Arkha | Software Developer",
     description:
-      "Software developer specializing in backend architecture and mobile development.",
+      "Software developer specializing in Web architecture and mobile development.",
   },
   robots: {
     index: true,

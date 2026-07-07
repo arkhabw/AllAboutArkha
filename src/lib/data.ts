@@ -21,17 +21,17 @@ export const navLinks = [
 export const socialLinks = [
   {
     label: "GitHub",
-    href: "https://github.com/arkha",
+    href: "https://github.com/arkhabw",
     icon: GithubIcon,
   },
   {
     label: "LinkedIn",
-    href: "https://linkedin.com/in/arkha",
+    href: "https://linkedin.com/in/arkhabw",
     icon: LinkedinIcon,
   },
   {
     label: "Email",
-    href: "mailto:arkha@email.com",
+    href: "mailto:arkha.bw@gmail.com",
     icon: Mail,
   },
 ] as const;
@@ -123,12 +123,12 @@ export const projects: Project[] = [
     gradient: "from-zinc-900 to-zinc-800",
   },
   {
-    title: "AI Search Algorithm Visualizer",
+    title: "Courier Route Visualizer With Dijkstra's Algorithm",
     description:
-      "Interactive visualization tool for informed and uninformed search algorithms including A*, UCS, BFS, and DFS. Features step-by-step execution, adjustable speed, custom graph creation, and performance metrics comparison.",
-    tech: ["Node.js", "A* Search", "UCS", "Fuzzy Logic"],
-    github: "https://github.com/arkha/search-visualizer",
-    demo: "https://search-viz-demo.vercel.app",
+      "Interactive web application visualizing courier delivery routes using Dijkstra's algorithm. Users can input locations, and the app computes the shortest path while displaying step-by-step route calculations.",
+    tech: ["Python", "Streamlit", "Dijkstra's Algorithm", "Data Visualization"],
+    github: "https://github.com/arkhabw/MATDIS",
+    demo: "https://courierroutedijkstra.streamlit.app/",
     gradient: "from-zinc-800 via-zinc-900 to-zinc-800",
   },
   {

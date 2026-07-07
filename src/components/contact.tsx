@@ -10,20 +10,20 @@ const contactLinks = [
   {
     icon: Mail,
     label: "Email",
-    value: "arkha@email.com",
-    href: "mailto:arkha@email.com",
+    value: "arkha.bw@gmail.com",
+    href: "mailto:arkha.bw@gmail.com",
   },
   {
     icon: GithubIcon,
     label: "GitHub",
-    value: "github.com/arkha",
-    href: "https://github.com/arkha",
+    value: "github.com/arkhabw",
+    href: "https://github.com/arkhabw",
   },
   {
     icon: LinkedinIcon,
     label: "LinkedIn",
     value: "linkedin.com/in/arkha",
-    href: "https://linkedin.com/in/arkha",
+    href: "https://linkedin.com/in/arkhabw",
   },
   {
     icon: Download,

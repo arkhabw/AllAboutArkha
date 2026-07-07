@@ -67,14 +67,14 @@ export function Hero() {
           variants={item}
           className="mt-2 text-lg font-medium text-zinc-500 sm:text-xl lg:text-2xl"
         >
-          Backend Architecture · Mobile Development
+          Web Architecture · Mobile Development
         </motion.p>
 
         <motion.p
           variants={item}
           className="mx-auto mt-8 max-w-2xl text-base leading-relaxed text-zinc-400 sm:text-lg"
         >
-          I craft robust backend systems and elegant mobile experiences.
+          I craft creative websites and mobile experiences.
           Focused on writing clean, scalable code that solves real problems
           with thoughtful engineering.
         </motion.p>
