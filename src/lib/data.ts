@@ -101,6 +101,7 @@ export interface Project {
   github: string;
   demo?: string;
   gradient: string;
+  image?: string;
 }
 
 export const projects: Project[] = [
@@ -120,6 +121,7 @@ export const projects: Project[] = [
     tech: ["PHP", "MySQL", "REST API", "Node.js"],
     github: "https://github.com/arkha/event-kampus",
     gradient: "from-zinc-900 to-zinc-800",
+    image: "/projects/event-kampus.jpg",
   },
   {
     title: "Courier Route Visualizer With Dijkstra's Algorithm",

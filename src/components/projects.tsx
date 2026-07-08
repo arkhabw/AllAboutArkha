@@ -32,19 +32,28 @@ export function Projects() {
               }}
             >
               <Card className="group h-full overflow-hidden hover:border-zinc-700/70 hover:shadow-lg hover:shadow-zinc-900/50">
-                {/* Project image placeholder with gradient */}
-                <div
-                  className={`h-48 bg-gradient-to-br ${project.gradient} relative overflow-hidden`}
-                >
-                  <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.03),transparent)]" />
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="text-center">
-                      <div className="mx-auto mb-2 h-12 w-12 rounded-xl border border-zinc-700/50 bg-zinc-800/80 p-2.5">
-                        <div className="h-full w-full rounded-md bg-zinc-600/30" />
+                {/* Project image placeholder with gradient or actual image */}
+                <div className="h-48 relative overflow-hidden">
+                  {project.image ? (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img
+                      src={project.image}
+                      alt={project.title}
+                      className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    />
+                  ) : (
+                    <div className={`absolute inset-0 bg-gradient-to-br ${project.gradient}`}>
+                      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.03),transparent)]" />
+                      <div className="absolute inset-0 flex items-center justify-center">
+                        <div className="text-center">
+                          <div className="mx-auto mb-2 h-12 w-12 rounded-xl border border-zinc-700/50 bg-zinc-800/80 p-2.5">
+                            <div className="h-full w-full rounded-md bg-zinc-600/30" />
+                          </div>
+                          <span className="text-xs text-zinc-500">{project.tech[0]}</span>
+                        </div>
                       </div>
-                      <span className="text-xs text-zinc-500">{project.tech[0]}</span>
                     </div>
-                  </div>
+                  )}
                 </div>
 
                 <CardHeader>
