@@ -12,9 +12,8 @@ import { GithubIcon, LinkedinIcon } from "@/components/icons";
 
 export const navLinks = [
   { label: "Home", href: "#home" },
-  { label: "Skills", href: "#skills" },
-  { label: "Projects", href: "#projects" },
   { label: "About", href: "#about" },
+  { label: "Projects", href: "#projects" },
   { label: "Contact", href: "#contact" },
 ] as const;
 
