@@ -106,6 +106,16 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: "RacePace AI",
+    description:
+      "Interactive F1 Race Simulation & Pit Strategy Optimizer with motorsport telemetry aesthetics. Uses AI backtracking search with branch-and-bound pruning to evaluate thousands of compound and pit-lap combinations in milliseconds.",
+    tech: ["JavaScript", "Chart.js", "AI Search", "Telemetry"],
+    github: "https://github.com/arkhabw/F1PitStrategyPrediction",
+    demo: "https://arkhabw.github.io/F1PitStrategyPrediction/",
+    gradient: "from-red-950 to-zinc-900",
+    image: "/projects/racepace-ai.png",
+  },
+  {
     title: "Cross-Language API Gateway",
     description:
       "High-performance API gateway integrating Node.js and PHP microservices through Express. Features request routing, rate limiting, authentication middleware, and unified error handling across different runtime environments.",
@@ -119,7 +129,7 @@ export const projects: Project[] = [
     description:
       "Full-stack campus activity management platform enabling students and organizations to create, discover, and manage university events. Includes real-time notifications, RSVP tracking, and admin dashboard.",
     tech: ["PHP", "MySQL", "REST API", "Node.js"],
-    github: "https://github.com/arkha/event-kampus",
+    github: "https://github.com/arkhabw/EventKampus",
     gradient: "from-zinc-900 to-zinc-800",
     image: "/projects/event-kampus.jpg",
   },
@@ -131,6 +141,7 @@ export const projects: Project[] = [
     github: "https://github.com/arkhabw/MATDIS",
     demo: "https://courierroutedijkstra.streamlit.app/",
     gradient: "from-zinc-800 via-zinc-900 to-zinc-800",
+    image: "/projects/dijkstra.png",
   },
   {
     title: "Modern Android Application",
