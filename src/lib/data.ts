@@ -175,29 +175,29 @@ export interface TimelineEntry {
 
 export const timeline: TimelineEntry[] = [
   {
+    date: "2026 — Present",
+    title: "Web Developer Member",
+    organization: "KSM Multimedia",
+    description:
+      "Developing full-stack web applications by taking projects from initial frontend UI design through backend logic to final deployment. Mastering HTML/CSS and modern frameworks to build responsive user interfaces, and managing databases to create functional, secure systems.",
+    type: "work",
+    icon: Briefcase,
+  },
+  {
+    date: "2025 — 2026",
+    title: "Human Development Staff",
+    organization: "BEMF-IK UPNVJ",
+    description:
+      "Supported the management and development of BEMF-IK members by assisting in internal coordination, communication, and organizational discipline. Contributed to initiatives aimed at improving teamwork, member engagement, and cross-divisional effectiveness.",
+    type: "work",
+    icon: Briefcase,
+  },
+  {
     date: "2024 — Present",
-    title: "Software Developer",
-    organization: "Freelance & Open Source",
+    title: "Bachelor of Informatics",
+    organization: "UPN \"Veteran\" Jakarta",
     description:
-      "Building scalable backend systems and mobile applications. Contributing to open-source projects focused on developer tooling and API infrastructure.",
-    type: "work",
-    icon: Briefcase,
-  },
-  {
-    date: "2023 — 2024",
-    title: "Backend Developer Intern",
-    organization: "Tech Startup",
-    description:
-      "Designed and implemented RESTful APIs serving 10k+ daily requests. Optimized database queries reducing response times by 40%. Collaborated with cross-functional teams using agile methodologies.",
-    type: "work",
-    icon: Briefcase,
-  },
-  {
-    date: "2021 — Present",
-    title: "Bachelor of Computer Science",
-    organization: "University",
-    description:
-      "Focused on software engineering, algorithms, and artificial intelligence. Active participant in coding competitions and tech community events. Maintaining strong academic performance.",
+      "Focused on computer science fundamentals, software engineering, databases, and algorithms. Active participant in student organizations, developing multimedia, and maintaining a strong academic foundation.",
     type: "education",
     icon: GraduationCap,
   },
