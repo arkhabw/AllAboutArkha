@@ -5,7 +5,7 @@ Jakarta, Indonesia | +62 8xx-xxxx-xxxx | arkha.bw@gmail.com
 ---
 
 ## PROFESSIONAL SUMMARY
-Detail-oriented Software Developer specializing in backend architecture, native Android engineering, and full-stack web applications. Proven track record of developing interactive, algorithm-driven applications and robust microservice infrastructures using Next.js, Kotlin, and Node.js. Passionate about writing clean, maintainable code, implementing intelligent AI algorithms (such as RAG and backtracking), and active contribution to student engineering groups.
+Detail-oriented Software Developer specializing in backend architecture, native Android engineering, and full-stack web applications. Proven track record of developing interactive, algorithm-driven applications, designing efficient database schemas, and building secure REST APIs using Next.js, Kotlin, and Node.js. Passionate about writing clean, maintainable code, implementing intelligent AI algorithms (such as RAG and backtracking), and active contribution to student engineering groups.
 
 ---
 
@@ -13,8 +13,8 @@ Detail-oriented Software Developer specializing in backend architecture, native 
 * **Programming Languages:** Kotlin, Java, PHP, JavaScript, TypeScript, Python, HTML5, CSS3
 * **Web Development:** Next.js (App Router), React, Express.js, Tailwind CSS, Streamlit
 * **Mobile Development:** Android SDK, Jetpack Compose, Kotlin Coroutines, MVVM Architecture
-* **Databases & Cloud:** MySQL, PostgreSQL, Firebase Cloud Firestore, Firebase Auth
-* **DevOps & Tooling:** Git, Docker, Postman, RESTful APIs, Google OAuth
+* **Database Systems & Cloud:** Database Design, MySQL, PostgreSQL, Firebase Cloud Firestore, Firebase Auth
+* **DevOps & Tooling:** Git, Docker, Postman, REST API Integration, RESTful APIs, Google OAuth
 * **AI & Optimization:** Retrieval-Augmented Generation (RAG), Backtracking Search (Branch-and-Bound), Dijkstra's Shortest Path, Fuzzy Logic, Bayesian Networks
 
 ---
