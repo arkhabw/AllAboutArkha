@@ -116,6 +116,15 @@ export const projects: Project[] = [
     image: "/projects/arnai.png",
   },
   {
+    title: "LokalMarket",
+    description:
+      "A premier native Android e-commerce platform designed to bring authentic Indonesian traditional crafts and heritage goods to a global audience. Features a culturally rich UI, Jetpack Compose layout, secure local payment checkout, and lightning-fast product search.",
+    tech: ["Kotlin", "Jetpack Compose", "Android SDK", "Payment Gateway"],
+    github: "https://github.com/Alifsw21/LokalMarket",
+    gradient: "from-zinc-900 to-zinc-800",
+    image: "/projects/lokalmarket.png",
+  },
+  {
     title: "RacePace AI",
     description:
       "Interactive F1 Race Simulation & Pit Strategy Optimizer with motorsport telemetry aesthetics. Uses AI backtracking search with branch-and-bound pruning to evaluate thousands of compound and pit-lap combinations in milliseconds.",
@@ -152,15 +161,6 @@ export const projects: Project[] = [
     demo: "https://courierroutedijkstra.streamlit.app/",
     gradient: "from-zinc-800 via-zinc-900 to-zinc-800",
     image: "/projects/dijkstra.png",
-  },
-  {
-    title: "LokalMarket",
-    description:
-      "A premier native Android e-commerce platform designed to bring authentic Indonesian traditional crafts and heritage goods to a global audience. Features a culturally rich UI, Jetpack Compose layout, secure local payment checkout, and lightning-fast product search.",
-    tech: ["Kotlin", "Jetpack Compose", "Android SDK", "Payment Gateway"],
-    github: "https://github.com/Alifsw21/LokalMarket",
-    gradient: "from-zinc-900 to-zinc-800",
-    image: "/projects/lokalmarket.png",
   },
 ];
 
