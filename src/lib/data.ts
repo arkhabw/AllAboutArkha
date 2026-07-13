@@ -197,7 +197,7 @@ export const timeline: TimelineEntry[] = [
     title: "Bachelor of Informatics",
     organization: "UPN \"Veteran\" Jakarta",
     description:
-      "Focused on computer science fundamentals, software engineering, databases, and algorithms. Active participant in student organizations, developing multimedia, and maintaining a strong academic foundation.",
+      "Focused on computer science fundamentals, software engineering, AI development, databases, and algorithms. Active participant in student organizations, developing relationship, and maintaining a strong academic foundation.",
     type: "education",
     icon: GraduationCap,
   },
