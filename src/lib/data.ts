@@ -154,12 +154,13 @@ export const projects: Project[] = [
     image: "/projects/dijkstra.png",
   },
   {
-    title: "Modern Android Application",
+    title: "LokalMarket",
     description:
-      "Feature-rich Android application built with modern development practices. Utilizes Jetpack Compose for declarative UI, Kotlin coroutines for async operations, and clean architecture with MVVM pattern.",
-    tech: ["Kotlin", "Jetpack Compose", "REST API", "PostgreSQL"],
-    github: "https://github.com/arkha/modern-android",
+      "A premier native Android e-commerce platform designed to bring authentic Indonesian traditional crafts and heritage goods to a global audience. Features a culturally rich UI, Jetpack Compose layout, secure local payment checkout, and lightning-fast product search.",
+    tech: ["Kotlin", "Jetpack Compose", "Android SDK", "Payment Gateway"],
+    github: "https://github.com/Alifsw21/LokalMarket",
     gradient: "from-zinc-900 to-zinc-800",
+    image: "/projects/lokalmarket.png",
   },
 ];
 
