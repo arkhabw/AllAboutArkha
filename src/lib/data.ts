@@ -106,6 +106,16 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: "Arnai",
+    description:
+      "Advanced AI-powered study companion designed to accelerate learning cycles. Features secure Google OAuth, dynamic vector RAG document queries, automatic AI quiz generation, interactive mind mapping, and a gamified level-up system.",
+    tech: ["Next.js", "TypeScript", "Firebase", "Vector RAG", "OAuth"],
+    github: "https://github.com/arkhabw/Arnai",
+    demo: "https://arnai-ai.vercel.app",
+    gradient: "from-indigo-950 to-zinc-900",
+    image: "/projects/arnai.png",
+  },
+  {
     title: "RacePace AI",
     description:
       "Interactive F1 Race Simulation & Pit Strategy Optimizer with motorsport telemetry aesthetics. Uses AI backtracking search with branch-and-bound pruning to evaluate thousands of compound and pit-lap combinations in milliseconds.",
