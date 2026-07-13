@@ -25,7 +25,7 @@ export const socialLinks = [
   },
   {
     label: "LinkedIn",
-    href: "https://linkedin.com/in/arkhabw",
+    href: "https://www.linkedin.com/in/arkhabw",
     icon: LinkedinIcon,
   },
   {
@@ -185,7 +185,7 @@ export const timeline: TimelineEntry[] = [
   },
   {
     date: "2025 — 2026",
-    title: "Human Development Staff",
+    title: "Human Resource Development Staff",
     organization: "BEMF-IK UPNVJ",
     description:
       "Supported the management and development of BEMF-IK members by assisting in internal coordination, communication, and organizational discipline. Contributed to initiatives aimed at improving teamwork, member engagement, and cross-divisional effectiveness.",

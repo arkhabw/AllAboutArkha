@@ -22,8 +22,8 @@ const contactLinks = [
   {
     icon: LinkedinIcon,
     label: "LinkedIn",
-    value: "linkedin.com/in/arkha",
-    href: "https://linkedin.com/in/arkhabw",
+    value: "linkedin.com/in/arkhabw",
+    href: "https://www.linkedin.com/in/arkhabw",
   },
   {
     icon: Download,
