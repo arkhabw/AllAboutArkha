@@ -33,7 +33,7 @@ export function Projects() {
             >
               <Card className="group h-full overflow-hidden hover:border-zinc-700/70 hover:shadow-lg hover:shadow-zinc-900/50">
                 {/* Project image placeholder with gradient or actual image */}
-                <div className="h-48 relative overflow-hidden">
+                <div className="w-full aspect-video relative overflow-hidden">
                   {project.image ? (
                     // eslint-disable-next-line @next/next/no-img-element
                     <img
