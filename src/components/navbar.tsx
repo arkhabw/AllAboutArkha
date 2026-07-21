@@ -74,7 +74,7 @@ export function Navbar() {
 
           <div className="hidden md:block">
             <Button size="sm" variant="secondary" asChild>
-              <a href="/resume.pdf" download aria-label="Download CV">
+              <a href="/CV_Arkhandika Budi W.pdf" download aria-label="Download CV">
                 <Download className="h-4 w-4" />
                 Download CV
               </a>
