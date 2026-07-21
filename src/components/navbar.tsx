@@ -125,7 +125,7 @@ export function Navbar() {
                 transition={{ duration: 0.3, delay: navLinks.length * 0.05 }}
               >
                 <Button variant="secondary" asChild>
-                  <a href="/resume.pdf" download>
+                  <a href="/CV_Arkhandika Budi W.pdf" download>
                     <Download className="h-4 w-4" />
                     Download CV
                   </a>
