@@ -96,7 +96,7 @@ export function Hero() {
                 View Projects
               </Button>
               <Button size="lg" variant="secondary" asChild className="w-full sm:w-auto">
-                <a href="/resume.pdf" download>
+                <a href="/CV_Arkhandika Budi W.pdf" download>
                   <Download className="h-4 w-4" />
                   Download CV
                 </a>
