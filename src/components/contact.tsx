@@ -29,7 +29,7 @@ const contactLinks = [
     icon: Download,
     label: "Resume",
     value: "Download CV",
-    href: "/resume.pdf",
+    href: "/CV_Arkhandika Budi W.pdf",
   },
 ];
 
